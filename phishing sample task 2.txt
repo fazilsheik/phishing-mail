@@ -19,7 +19,7 @@ PayPal Support Team
 
 
 
- 1. Sender’s Address (Spoofing Potential)
+ 1. Sender’s Address 
 The display name shows PayPal Support, but the actual email is support@paypal-secure.com—a domain not owned by PayPal. Real PayPal emails come from @paypal.com.
 
  2. Email Header Discrepancies
