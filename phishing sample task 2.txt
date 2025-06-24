@@ -1,0 +1,49 @@
+From: “PayPal Support” support@paypal-secure.com
+To: sheik mohamed fazil
+Subject: URGENT: Account Verification Required Immediately!
+
+Email Body:
+
+Dear PayPal User,
+
+We detected unusual activity on your account and have temporarily limited your ability to withdraw funds.
+
+To restore access, please verify your account immediately by clicking the link below before June 23, 2025.
+
+🔗 Verify Now
+
+Failure to do so will result in permanent suspension.
+
+Thank you,
+PayPal Support Team
+
+
+
+ 1. Sender’s Address (Spoofing Potential)
+The display name shows PayPal Support, but the actual email is support@paypal-secure.com—a domain not owned by PayPal. Real PayPal emails come from @paypal.com.
+
+ 2. Email Header Discrepancies
+Received: shows it originated from a server in a different country or from suspicious IPs not listed in PayPal’s SPF records.
+
+SPF/DKIM/DMARC: would fail or soft-fail, indicating the domain isn’t authorized—clear red flags 
+keepnetlabs.com
+
+ 3. Suspicious Links or Attachments
+Link text "Verify Now" hides the actual URL, e.g., http://paypal.secure-login.xyz/verify.
+
+Hovering reveals a mismatch—leading to a bogus domain designed to capture credentials .
+
+No attachments here, but dangerous attachments often include .zip or .doc with macros.
+
+ 4. Urgent or Threatening Language
+Words like URGENT, immediately, permanent suspension, and time pressure are classic manipulation tactics to force quick action 
+mlhale.github.io
+.
+
+ 5. Mismatched URLs
+Visual link text suggests PayPal origin, but cursor shows paypal.verify-user.evil.com—a sign of URL obfuscation attacks 
+intezer.com
+
+ 6. Spelling or Grammar Issues
+The message is short but lacks personalization (e.g., “Dear [Your Name]”), and includes phrases slightly off from typical corporate tone—like “unusual activity” without specifics.
+
